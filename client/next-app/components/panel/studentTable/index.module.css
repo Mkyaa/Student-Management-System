@@ -1,0 +1,74 @@
+.studentTable {
+  @apply w-full h-full 
+    flex flex-col pb-10 
+    max-w-[1110px] mx-auto
+    overflow-hidden
+    overflow-x-auto
+}
+
+.studentTable table{
+    @apply w-full 
+}
+
+.studentTable thead {
+    @apply w-full 
+    overflow-x-scroll
+}
+
+.studentTable thead {
+    @apply w-full 
+}
+
+.studentTable thead tr {
+    @apply w-full
+}
+
+.studentTable thead tr th {
+    @apply w-[150px] h-[50px] text-center text-2xl font-medium
+}
+
+.studentTable tbody {
+    @apply w-full
+    bg-white 
+    border border-solid border-gray-300
+    rounded-xl
+}
+
+.studentTable tbody tr {
+    @apply w-full 
+}
+
+.studentTable tbody tr td {
+    @apply w-[150px] h-[50px] 
+    font-medium text-sm text-center py-3 
+    border-b border-solid border-gray-300
+}
+
+.actionBox {
+    @apply w-full flex border-none
+    justify-evenly items-center
+}
+
+.actionBox svg {
+    @apply w-5 h-5
+    cursor-pointer
+}
+
+.editBtn{
+    @apply text-orange-600
+}
+
+.pagination {
+    @apply w-full flex justify-center items-center
+    gap-1 mt-5 
+    text-gray-500 text-sm
+}
+
+.pagination svg {
+    @apply w-5 h-5
+    cursor-pointer
+}
+
+.emptyRow {
+    @apply w-full h-[70px]
+}

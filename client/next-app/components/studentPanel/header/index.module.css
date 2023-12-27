@@ -1,0 +1,23 @@
+.headerContainer {
+  @apply fixed top-0 left-0 right-0
+   w-full h-[80px] px-10
+    bg-white z-20
+    flex justify-between items-center 
+    shadow-md;
+}
+
+.headerLogo{
+  @apply text-[20px] 
+  leading-6 font-bold 
+  border-l-4 border-solid border-blue-500
+  pl-4 mt-[18px] mb-4
+}
+
+.headerRight {
+  @apply flex items-center gap-10
+}
+
+.headerRight a {
+  @apply text-[#6C6C6C] text-[14px] font-medium
+}
+

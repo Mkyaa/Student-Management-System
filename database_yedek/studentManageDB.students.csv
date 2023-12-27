@@ -1,0 +1,16 @@
+_id,studentNumber,password,fullname,age,department,__v
+658c27fa47fa05b174e0fe15,12345,student1password,John Doe,20,Computer Engineering,
+658c27fa47fa05b174e0fe16,67890,student2password,Jane Smith,21,Electrical Engineering,
+658c27fa47fa05b174e0fe17,11111,student3password,Robert Johnson,19,Mechanical Engineering,
+658c27fa47fa05b174e0fe18,22222,student4password,Emily Davis,22,Industrial Engineering,
+658c27fa47fa05b174e0fe19,33333,student5password,Michael Brown,23,Computer Engineering,
+658c27fa47fa05b174e0fe1a,44444,student6password,Amy Wilson,20,Electrical Engineering,
+658c27fa47fa05b174e0fe1b,55555,student7password,David Miller,21,Mechanical Engineering,
+658c27fa47fa05b174e0fe1c,66666,student8password,Linda Jones,19,Industrial Engineering,
+658c27fa47fa05b174e0fe1d,77777,student9password,Chris Moore,22,Computer Engineering,
+658c27fa47fa05b174e0fe1e,88888,student10password,Olivia White,23,Electrical Engineering,
+658c27fa47fa05b174e0fe1f,99999,student11password,Brian Taylor,20,Mechanical Engineering,
+658c27fa47fa05b174e0fe20,10101,student12password,Susan Anderson,21,Industrial Engineering,
+658c27fa47fa05b174e0fe21,12121,student13password,Matthew Thomas,19,Computer Engineering,
+658c27fa47fa05b174e0fe22,13131,student14password,Alice Martinez,22,Electrical Engineering,2
+658c27fa47fa05b174e0fe23,14141,student15password,James Davis,23,Mechanical Engineering,

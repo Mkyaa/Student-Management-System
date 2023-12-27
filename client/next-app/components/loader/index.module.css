@@ -1,0 +1,14 @@
+.loaderContainer{
+    @apply w-full min-h-screen flex justify-center items-center
+}
+
+.loaderBox{
+    @apply px-10 py-5 rounded-xl
+    flex flex-col justify-center items-center
+    bg-white bg-opacity-50
+    relative
+}
+
+.loaderText{
+    @apply text-[14px] 
+}

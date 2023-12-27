@@ -1,0 +1,7 @@
+.dashContainer{
+    @apply w-full min-h-screen flex 
+}
+
+.mainContainer{
+    @apply w-full max-w-full h-full flex flex-col lg:ml-[270px]
+}

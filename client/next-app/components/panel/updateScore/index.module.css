@@ -1,0 +1,74 @@
+.updateNotesContainer {
+  @apply fixed w-full min-h-screen h-full overflow-hidden
+    bg-white  top-0 left-0 z-20
+    bg-opacity-10 
+    backdrop-blur-sm 
+    transition-opacity duration-300 ease-in-out;
+}
+
+.activeModal {
+  @apply flex  justify-center items-center  opacity-100;
+}
+
+.inactiveModal {
+  @apply opacity-0;
+}
+
+.updateNotesBox {
+  @apply w-full max-w-screen-sm flex flex-col bg-bg-primary rounded-xl
+  p-10 gap-5 shadow-lg
+  border border-solid border-gray-300
+}
+
+.updateNotesHeader {
+  @apply flex justify-center relative
+  text-2xl font-medium 
+}
+
+.updateNotesHeader svg {
+  @apply absolute top-0 right-0
+  w-8 h-8
+  cursor-pointer
+  hover:text-bg-secondary
+}
+
+
+.formGroup{
+    @apply flex flex-col gap-2
+}
+
+.formGroup label{
+    @apply text-sm font-medium
+}   
+
+.formGroup p{
+    @apply w-full h-10 px-2 pt-2
+    rounded-md
+    bg-white text-gray-600
+    border border-solid border-gray-300
+}
+
+.formGroup input{
+    @apply w-full h-10 px-2 rounded-md
+    border border-solid border-gray-300
+    outline-none 
+    focus:border-bg-secondary
+}
+
+.buttonContainer{
+    @apply flex flex-col justify-center items-center gap-4
+    mt-5
+}
+.updateBtn{
+    @apply w-full h-10 rounded-md
+    bg-bg-secondary text-white
+    cursor-pointer hover:bg-opacity-90
+    focus:bg-purple-600
+}
+
+.cancelBtn{
+    @apply w-full h-10 rounded-md
+    border border-solid border-bg-secondary
+    hover:bg-white hover:text-bg-secondary
+}
+

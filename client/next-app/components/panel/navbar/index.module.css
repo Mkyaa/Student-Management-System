@@ -1,0 +1,117 @@
+.sidebarContainer {
+  @apply hidden lg:fixed  top-0 left-0 z-10 
+    lg:flex min-w-[270px] w-[270px] min-h-[900px] h-screen
+    bg-bg-primary flex-col items-center;
+}
+
+.sidebarContainer > h1 {
+  @apply text-[20px] 
+    leading-6 font-bold 
+    border-l-4 border-solid border-bg-secondary 
+    pl-4 mt-[18px] mb-4;
+}
+
+.sidebarCard {
+  @apply w-32 h-[196px] mt-4 sm:mt-[54px] flex flex-col items-center;
+}
+
+.sidebarCard img {
+  @apply rounded-full w-32 h-32 object-cover;
+}
+
+.sidebarCard h2 {
+  @apply text-[#000000] font-bold text-[17px] mt-4;
+}
+
+.sidebarCard p {
+  @apply w-full mt-1 
+    text-bg-secondary text-xs font-medium 
+    text-center;
+}
+
+.sidebarNav {
+  @apply w-[193px] h-full min-h-[60dvh] mt-4 sm:mt-20 flex flex-col pb-8;
+}
+
+.sidebarNav ul {
+  @apply flex flex-col;
+}
+
+.sidebarNav ul li {
+  @apply w-full h-10 mb-4;
+}
+
+.sidebarNav ul li a {
+  @apply w-full h-10 
+    flex justify-center items-center rounded 
+    text-[#000000] font-medium text-[14px];
+}
+
+.sidebarNav ul li a:hover {
+  @apply bg-bg-secondary;
+}
+
+.sidebarNav ul li div {
+  @apply w-[76px] relative;
+}
+
+.sidebarNav ul li div img {
+  @apply absolute left-10 top-1/3 transform -translate-y-1/2;
+}
+
+.sidebarNav ul li p {
+  @apply w-[113px] text-left;
+}
+
+.sidebarBottomBox {
+  @apply mt-auto flex justify-center gap-2 mb-5;
+}
+
+.sidebarBottomBox:hover {
+  @apply cursor-pointer;
+}
+
+.sidebarBottomBox p {
+  @apply text-[#000000] font-medium text-[14px] group-hover:text-bg-primary;
+}
+
+/* MOBILE */
+
+.mobileMenuButton {
+  @apply w-7 h-7 absolute top-4 left-4;
+}
+
+.mobileMenuButton svg {
+  @apply w-full h-full;
+}
+
+.mobileMenuButton:hover {
+  @apply cursor-pointer;
+}
+
+.mobileMenuContainer {
+  @apply w-[270px] min-h-screen 
+    bg-bg-primary 
+    flex flex-col items-center
+    lg:hidden;
+}
+
+.active {
+  @apply absolute top-0 left-0 z-50;
+}
+
+.inactive {
+  @apply hidden;
+}
+
+.mobileMenuContainer > h1 {
+    @apply text-[20px] 
+      leading-6 font-bold 
+      border-l-4 border-solid border-bg-secondary 
+      pl-4 mt-20 mb-4;
+}
+
+.closeIcon {
+  @apply w-7 h-7 absolute top-4 right-4
+    cursor-pointer;
+}

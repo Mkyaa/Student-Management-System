@@ -1,0 +1,111 @@
+.signupContainer{
+    @apply w-full min-h-screen flex justify-center items-center
+    bg-bg-primary
+    py-10
+}
+
+.signUpForm{
+    @apply w-full mx-2 py-8 sm:mx-0 sm:w-[475px] h-full 
+    bg-white rounded-[20px] shadow-lg 
+    flex flex-col justify-center items-center
+}
+
+.signUpLogo{
+    @apply text-2xl sm:text-[32px] 
+    border-l-[6px] border-solid border-bg-secondary
+     pl-[10px] mt-2 font-bold 
+     flex items-center leading-[39px]
+}
+
+.signUpTitle{
+    @apply sm:text-[22px] 
+    font-semibold text-lg 
+    mt-10 leading-[27px] 
+}
+
+.signUpSubtitle{
+    @apply text-xs text-center sm:text-[14px] text-[#6C6C6C] 
+    mt-3 mb-5 
+    leading-[17px] 
+}
+
+.signUpInputContainer{
+    @apply w-full sm:px-0 sm:w-[415px] h-[71px]
+     flex flex-col justify-between 
+     mt-5 px-3 
+}
+
+
+.signUpButton{
+    @apply w-[96%] mx-auto sm:w-[415px] h-11 rounded-[4px] 
+    bg-bg-secondary text-white text-[14px] font-medium 
+    mt-6
+}
+
+.signUpForgot{
+    @apply text-[14px] text-[#6C6C6C] mt-6 
+}
+
+.signUpReset{
+    @apply text-[14px] font-medium text-bg-secondary
+}
+
+.signUpTerms{
+    @apply text-xs text-[#6C6C6C] font-semibold ml-1
+}
+
+.signUpSelect{
+    @apply w-full h-11 px-3 
+    text-base rounded-[4px]
+    border border-solid border-[#E5E5E5] 
+    placeholder:text-xs placeholder:text-[#CDCDCD]
+}
+
+.signUpSelect:focus{
+    @apply outline-none border-[2px] border-solid  border-bg-secondary
+}
+
+.signUpErrBox{
+    @apply flex justify-between
+}
+
+.signUpErrBox small{
+    @apply text-[12px] text-red-500
+}
+
+.signUpCheckboxContainer{
+    @apply w-full 
+     flex flex-col items-start justify-center
+     mt-4 px-5 
+}
+
+.signUpCheckboxContainer label{
+    @apply text-[14px] text-[#6C6C6C] font-medium flex items-center
+}
+
+.signUpInputContainer input {
+    @apply w-full h-11 px-3 
+    text-base rounded-[4px]
+    border border-solid border-[#E5E5E5] 
+    placeholder:text-xs placeholder:text-[#CDCDCD]
+}
+
+.signUpInputContainer input:focus{
+    @apply outline-none border-[2px] border-solid  border-bg-secondary
+}
+
+.signUpInputContainer label{
+    @apply text-[14px] text-[#6C6C6C] font-medium
+}
+
+.signUpCheckbox{
+    @apply flex
+}
+
+.signUpCheckErrBox{
+    @apply flex justify-between
+}
+
+.signUpCheckErrBox small{
+    @apply text-[12px] text-red-500
+}

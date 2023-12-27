@@ -1,0 +1,37 @@
+.infoSidebarContainer{
+    @apply md:fixed md:w-80 md:min-h-screen w-full h-full 
+    flex flex-col items-center
+    border-r border-solid border-gray-200 bg-gray-50
+    z-10 mt-20 py-10
+}
+
+.infoSidebarContainer h1{
+    @apply w-full
+    text-center text-sm font-medium text-gray-600
+} 
+
+.infoContainer{
+    @apply w-full mt-4
+    flex flex-col items-center
+    gap-4
+}
+
+.infoContainer img{
+    @apply w-32 h-32 rounded-full
+    bg-center bg-cover
+}
+
+.info{
+    @apply w-full 
+    flex flex-col
+}
+
+.info h3{
+    @apply w-full 
+    text-sm font-medium text-gray-600 text-center
+}
+
+.info p{
+    @apply w-full 
+    text-xs font-medium text-gray-500 text-center
+}

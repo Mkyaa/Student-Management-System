@@ -1,0 +1,3 @@
+.panelContainer{
+    @apply flex gap-[30px] flex-wrap p-[30px] justify-center
+}

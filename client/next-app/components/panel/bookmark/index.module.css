@@ -1,0 +1,23 @@
+.bookmarkContainer{
+    @apply w-full flex flex-col w-[255px] h-[157px] rounded-lg p-5
+}
+
+.bookmarkContainer img{
+    @apply w-fit 
+}
+
+.bookmarkContainer span{
+    @apply text-[14px] font-medium mt-4 
+}
+
+.bookmarkContainer article{
+    @apply w-full flex justify-end items-center
+}
+
+.bookmarkContainer article h1{
+    @apply items-end text-[30px] font-bold flex mt-1 
+}
+
+.bookmarkContainer article span{
+    @apply text-xl font-bold text-black pb-1
+}

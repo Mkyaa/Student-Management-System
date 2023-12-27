@@ -1,0 +1,49 @@
+.notesContainer{
+    @apply w-full flex flex-col
+    p-10
+}
+
+.notesContent{
+    @apply w-full mt-10 p-10
+    flex flex-col
+    bg-bg-primary
+}
+
+.actionContainer{
+    @apply w-full
+    flex flex-col lg:flex-row justify-between
+    gap-8
+}
+
+.buttonContainer{
+    @apply flex gap-6 justify-center lg:justify-start
+}
+
+.actionContainer button{
+    @apply w-24 h-10
+    text-white text-xs
+    bg-bg-secondary rounded-2xl
+    transition duration-300 ease-in-out
+}
+
+.tableContainer{
+    @apply w-full
+    flex flex-col
+    mt-10
+}
+
+.searchBox{
+    @apply w-full relative
+}
+
+.searchBox input{
+    @apply w-full h-10 pl-3 pr-10
+    border-2 border-solid border-gray-200 
+    text-xs text-gray-600
+    outline-none focus:border-bg-secondary
+}
+
+.searchBox svg{
+    @apply w-5 h-5 absolute top-2 right-3
+    text-gray-600
+}

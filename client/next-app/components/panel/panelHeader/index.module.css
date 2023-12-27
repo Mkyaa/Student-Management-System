@@ -1,0 +1,5 @@
+.panelHeader{
+    @apply w-full bg-bg-primary
+    p-6 
+    font-semibold text-3xl tracking-wider
+}
